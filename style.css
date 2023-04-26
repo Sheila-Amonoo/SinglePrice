@@ -1,0 +1,117 @@
+.container-grid{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 840px;
+    margin: 0 auto;     
+}
+@media (max-width: 650px){
+	.container-grid{
+		grid-template-columns: 100%;
+	}
+}
+.section1{
+    display: grid;
+    grid-template-rows: 50%;
+    background-color: white;
+    padding-top: 2%; 
+    width: 75%; 
+    padding-bottom: 5%;
+    padding-left: 5%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+      
+}
+@media (max-width: 650px){
+	.section1{
+		grid-template-columns: 100%;
+	}
+}
+.about-grid{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    width: 80%;    
+}
+@media (max-width: 480px){
+	.about-grid{
+		grid-template-columns: 100%;
+	}
+}
+.section2{
+    background-color: rgb(30, 165, 158);
+    border-bottom-left-radius: 10px;
+    height: 110%;
+    padding-left: 10%;
+    
+}
+.section3{
+    background-color: lightseagreen;
+    border-bottom-right-radius: 10px;
+    height: 110%;       
+}
+
+.intro{
+    color: lightseagreen; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+h2{
+    color: rgb(193, 221, 35);
+    line-height: 5%;
+    font-size: medium;    
+}
+p{
+    color: silver;
+    line-height: 2%;  
+    font-size: small;
+}
+.month-heading{
+    padding-top: 10%;
+    color: white;
+    font-size: large;   
+    padding-right: 10%;
+}
+.tag{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.length{
+    color: silver;
+    padding-left: 5%;
+    align-content: first baseline;
+    justify-content: first baseline;    
+}
+.full{
+    padding-right: 10%;
+    color: rgb(233, 233, 233);
+    font-size: small;
+    
+}
+.button{
+    padding: 3%;
+    margin-top: 8%;
+    align-content: space-around;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(193, 221, 35);
+    width: 80%;
+    height: 100%;
+    border-color: rgb(193, 221, 35);
+    border-radius: 5%;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+.why-heading{  
+    padding-top: 10%;
+    color: white;
+    font-size: large;   
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.why-list{  
+    list-style: none;
+    line-height: 150%;
+    font-size: small;
+    color: rgb(233, 233, 233);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
